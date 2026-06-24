@@ -23,7 +23,47 @@
     input{
       padding: 8px;
       margin: 5px;
-      width
+      width: calc(100% - 20px);
+      }
+      button{
+      padding: 10px;
+      background: green;
+      color: white;
+      border: none;
+      cursor: pointer;
+      width: 100%
+      margin-top; 10px;
+      }
+      table{
+      width: 100%;
+      margin-top:20px;
+      border-collapse;
+      }
+      table, th, td{
+      border: 1px solid #ccc;
+      text-align: center;
+      }
+      th, td{
+      padding: 10px;
+      }
+      .delete{
+      background: red;
+      padding: 5px;
+      color: white;
+      cursor: pointer;
+      border: none;
+      }
 
   </style>
 </head>
+</body>
+<div class="container">
+<h1>Controle de Estoque</h1>
+
+<input type="text" id="produto" placeholder="Nome do produto">
+<input type="number" id="quantidade" placeholder="quantidade">
+
+<button onclick="adicionarProduto()">Adicionar Produto</button>
+
+</table>
+<head
